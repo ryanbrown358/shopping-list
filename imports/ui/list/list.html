@@ -1,0 +1,16 @@
+
+<template name="addList">
+ <h1 id="storeHeading">Stores To Visit</h1>
+
+    <form class="new-stores">
+        <input type="text" placeholder="Add Store" class="validate" name="store"/>
+    </form>
+</template>
+
+<template name="displayStore">
+    <li class="collection-item" id="storeList">
+            <button class="delete" id="deleteButton"><i class="material-icons">delete</i>&times;</button>
+        {{store}}
+    </li>
+</template>
+

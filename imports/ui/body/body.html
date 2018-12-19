@@ -1,0 +1,61 @@
+<body>
+    <div class="container">
+
+    <header>
+        <h1 class="center">Shopping List</h1>
+    </header>
+
+
+    </div>
+
+    <div class="container" id="list-container">
+        <div class="row">
+            <div class="col s10">
+                    {{> addList}}
+
+                    <div class="container">
+                            <div class="collection">
+                                <ul>
+                                    {{#each storeList}}
+                                        {{> displayStore}}
+                                    {{/each}}
+                                </ul>
+                            </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    
+   
+    
+    <div class="container">
+        <div class="row">
+            <div class="col s4 offset-s4">
+                    {{> newItem}}
+                    <div class="collection">
+                            <ul>
+                                    {{#each list}}
+                                        {{> items}}
+                                    {{/each}}
+                            </ul>
+                    </div>
+                </div>
+        </div>
+    </div>
+</body>
+
+<template name="items">
+    <li class="collection-item" id="main-items">
+        
+       <button class="delete" id="deleteButton"><i class="material-icons">delete</i>&times;</button>
+       {{item}}
+    </li>
+</template>
+
+<template name="newItem">
+    <form class="new-item">
+        <input type="text" name="item" placeholder="New Shopping Item"/> <br/><br/>
+        <!-- <input type="number" name="ammount" placeholder="Ammount"/> -->
+    </form>
+</template>

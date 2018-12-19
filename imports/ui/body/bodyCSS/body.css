@@ -1,0 +1,15 @@
+#main-items {
+    text-align: center;
+}
+
+body { 
+    background: #cedbe9; /* Old browsers */
+    background: -moz-linear-gradient(top, #cedbe9 0%, #aac5de 11%, #3a84c3 24%, #3a84c3 24%, #6199c7 50%, #4bb8f0 71%, #3a8bc2 79%, #419ad6 93%, #419ad6 93%, #26558b 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #cedbe9 0%,#aac5de 11%,#3a84c3 24%,#3a84c3 24%,#6199c7 50%,#4bb8f0 71%,#3a8bc2 79%,#419ad6 93%,#419ad6 93%,#26558b 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #cedbe9 0%,#aac5de 11%,#3a84c3 24%,#3a84c3 24%,#6199c7 50%,#4bb8f0 71%,#3a8bc2 79%,#419ad6 93%,#419ad6 93%,#26558b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedbe9', endColorstr='#26558b',GradientType=0 ); /* IE6-9 */
+    background: url('https://images.pexels.com/photos/988872/pexels-photo-988872.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Permanent Marker', cursive;
+}

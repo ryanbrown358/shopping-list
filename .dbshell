@@ -1,0 +1,2 @@
+db.shoppingList.insert({item: "Milk"}, {ammount: 20});
+db.shoppingList.insert({item: "Milk", ammount: 20});

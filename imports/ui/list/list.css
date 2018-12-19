@@ -1,0 +1,11 @@
+#list-container {
+    border: 1px solid black;
+    float: left;
+    width: 500px;
+    
+}
+
+#storeHeading { 
+    font-size: 1.7em;
+    text-align: center;
+}
