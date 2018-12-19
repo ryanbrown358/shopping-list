@@ -1,6 +1,6 @@
 <body>
     <div class="container">
-
+        {{> navigation}}
     <header>
         <h1 class="center">Shopping List</h1>
     </header>
@@ -58,4 +58,14 @@
         <input type="text" name="item" placeholder="New Shopping Item"/> <br/><br/>
         <!-- <input type="number" name="ammount" placeholder="Ammount"/> -->
     </form>
+</template>
+
+<template name="navigation">
+    <nav>
+        <ul>
+            <li>
+                <a href="/testing">Testing</a>
+            </li>
+        </ul>
+    </nav>
 </template>

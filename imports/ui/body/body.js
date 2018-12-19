@@ -6,6 +6,7 @@ import '../list/list.js';
 import './bodyCSS/body.css';
 
 
+
 Template.body.helpers({
     // testing code before mongo set up
     // shoppingList: [
